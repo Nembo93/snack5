@@ -11,7 +11,7 @@ let somDisp= 0;
 let i = 0;
 while (i < numeri.length) {
     
-    if (i % 2 !== 0){
+    if (numeri[i] % 2 !== 0){
         let disp = numeri[i];
         somDisp = somDisp + disp;
     }
